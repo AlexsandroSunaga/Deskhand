@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --support-sidebar: #0f172a;
+  --support-accent: #06b6d4;
+  --support-surface: #f8fafc;
+}
+
+body.theme-support {
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+/* Light ops console — dashboard shell */
+.theme-support-dash {
+  background: linear-gradient(160deg, #f1f5f9 0%, #e2e8f0 45%, #f8fafc 100%);
+  color: #0f172a;
+}
+
+.theme-support-dash .glass,
+.theme-support-dash .card {
+  @apply bg-white/90 border border-slate-200/90 shadow-md shadow-slate-200/50 rounded-2xl;
+}
+
+.theme-support-marketing {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+@layer utilities {
+  .stripe-bg {
+    background-color: #0f172a;
+    background-image: repeating-linear-gradient(
+      -12deg,
+      transparent,
+      transparent 40px,
+      rgba(6, 182, 212, 0.06) 40px,
+      rgba(6, 182, 212, 0.06) 41px
+    );
+  }
+  .glass {
+    @apply bg-slate-900/50 backdrop-blur border border-slate-700/80;
+  }
+  .card {
+    @apply bg-white border border-slate-200 shadow-md rounded-2xl;
+  }
+}
