@@ -1,0 +1,3 @@
+backend/** linguist-detectable=true
+app/** linguist-detectable=true
+lib/** linguist-detectable=true

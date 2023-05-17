@@ -13,8 +13,20 @@
 
 ## Run
 
+**API (FastAPI, port 8001)**
+
+```bash
+cd backend
+python -m venv .venv && .venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8001
+```
+
+**Console (Next.js, port 3001)**
+
 ```bash
 npm install
+set AGENT_API_URL=http://127.0.0.1:8001
 npm run dev
 ```
 
