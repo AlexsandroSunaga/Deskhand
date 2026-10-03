@@ -7,7 +7,8 @@ cd backend
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8001
+$env:PYTHONPATH="src"
+uvicorn src.main:backend_app --reload --port 8001
 ```
 
 OpenAPI: http://127.0.0.1:8001/docs
