@@ -7,7 +7,7 @@
 ![Tool Calling](https://img.shields.io/badge/Tool%20Calling-KB%20%2B%20CRM-06b6d4)
 ![Next.js](https://img.shields.io/badge/Next.js-15-000?logo=next.js&logoColor=white)
 
-**Next.js 15** product console + **`/api/agent`** tool router (deterministic demo; swap in **OpenAI / Anthropic function-calling** for production).
+**Next.js 15** product console + **FastAPI** agent API with tool router (deterministic rules; ready to swap in **OpenAI / Anthropic** function-calling).
 
 **GitHub topics:** `ai-agents`, `tool-calling`, `llm`, `nextjs`, `customer-support`, `openai`
 
@@ -42,6 +42,6 @@ Overview · Agent console (chat + tool trace) · Tool registry · Knowledge · O
 
 ⌘K command palette · collapsible sidebar · mobile nav
 
-## Upwork line
+## Summary
 
-Live demo — support agent with tool traces, KB + order tools, ops dashboard (Next.js). LLM router optional on engagement.
+Support agent with tool traces, KB + order tools, and ops dashboard (Next.js + FastAPI). LLM-backed router can be enabled per deployment.
