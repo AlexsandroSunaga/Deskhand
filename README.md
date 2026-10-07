@@ -1,4 +1,4 @@
-# ACME Support Ops
+# Deskhand
 
 **AI agents · tool calling · support automation**
 

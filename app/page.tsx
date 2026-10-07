@@ -15,7 +15,7 @@ export default function MarketingPage() {
       <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-slate-900 pointer-events-none" />
       <header className="relative max-w-6xl mx-auto px-6 py-6 flex justify-between items-center border-b border-white/5">
         <div>
-          <p className="text-xs uppercase tracking-widest text-cyan-400 font-bold">ACME Desk</p>
+          <p className="text-xs uppercase tracking-widest text-cyan-400 font-bold">Deskhand</p>
           <p className="font-bold text-lg text-white">Support Ops</p>
         </div>
         <Link href="/dashboard">

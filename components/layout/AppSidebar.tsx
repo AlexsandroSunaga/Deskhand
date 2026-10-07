@@ -27,7 +27,7 @@ export function AppSidebar({ mobile }: { mobile?: boolean }) {
               <Headphones className="h-4 w-4" />
               <p className="text-[10px] font-bold tracking-widest uppercase">Support Ops</p>
             </div>
-            <h2 className="text-base font-bold text-white mt-1">ACME Desk</h2>
+            <h2 className="text-base font-bold text-white mt-1">Deskhand</h2>
           </>
         )}
         <button

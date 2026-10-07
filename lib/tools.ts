@@ -64,7 +64,7 @@ export function searchKnowledge(query: string): string {
   for (const entry of KB) {
     if (entry.keywords.some((k) => q.includes(k))) return entry.answer;
   }
-  return "No KB article matched. Escalate to human support@acme-example.com.";
+  return "No KB article matched. Escalate to human support@halden.example.";
 }
 
 export function getOrderStatus(orderId: string): string {

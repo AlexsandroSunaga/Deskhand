@@ -11,7 +11,7 @@ from src.config.manager import get_settings
 from src.repository.events import init_database_tables
 from src.utilities.logging import configure_logging
 
-logger = logging.getLogger("acme.support")
+logger = logging.getLogger("deskhand")
 
 
 @asynccontextmanager

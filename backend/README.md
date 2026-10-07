@@ -1,4 +1,4 @@
-# ACME Support Agent API
+# Deskhand Agent API
 
 FastAPI service for the support console: health, tool registry, KB catalog, and **`POST /api/v1/agent`**.
 

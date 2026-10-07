@@ -9,7 +9,7 @@ from app.core.config import settings
 from app.core.logging import configure_logging
 from app.middleware.request_id import RequestIdMiddleware
 
-logger = logging.getLogger("acme.support")
+logger = logging.getLogger("deskhand")
 
 
 @asynccontextmanager

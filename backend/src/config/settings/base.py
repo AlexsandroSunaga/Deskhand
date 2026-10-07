@@ -7,7 +7,7 @@ class BackendBaseSettings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     environment: Environment = Environment.DEVELOPMENT
-    app_name: str = "ACME Support Agent API"
+    app_name: str = "Deskhand Agent API"
     app_version: str = "2.1.0"
     api_prefix: str = "/api/v1"
     cors_origins: str = "http://localhost:3001,http://127.0.0.1:3001"

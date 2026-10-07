@@ -6,7 +6,7 @@ from src.models.schemas.agent import AgentRequest, AgentResponse, ToolDefinition
 from src.services.agent import KB_ARTICLES, TOOL_DEFINITIONS, list_orders, run_agent
 
 router = APIRouter(prefix="/api/v1", tags=["agent"])
-logger = logging.getLogger("acme.support.agent")
+logger = logging.getLogger("deskhand.agent")
 
 
 @router.get("/tools", response_model=list[ToolDefinition])

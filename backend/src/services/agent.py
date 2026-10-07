@@ -55,7 +55,7 @@ def search_knowledge(query: str) -> str:
     for article in KB_ARTICLES:
         if any(k in q for k in article["keywords"]):
             return article["excerpt"]
-    return "No KB article matched. Escalate to human support@acme-example.com."
+    return "No KB article matched. Escalate to human support@halden.example."
 
 
 def get_order_status(order_id: str) -> str:
