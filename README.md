@@ -1,5 +1,13 @@
 # Deskhand
 
+## Screenshots
+
+![Deskhand landing page](docs/screenshots/01-landing.png)
+![Support ops overview dashboard](docs/screenshots/02-dashboard.png)
+![Agent console with tool trace](docs/screenshots/03-agent-tool-trace.png)
+![Orders view](docs/screenshots/04-orders.png)
+
+
 **AI agents · tool calling · support automation**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-Next.js-3178C6?logo=typescript&logoColor=white)
@@ -45,3 +53,11 @@ Overview · Agent console (chat + tool trace) · Tool registry · Knowledge · O
 ## Summary
 
 Support agent with tool traces, KB + order tools, and ops dashboard (Next.js + FastAPI). LLM-backed router can be enabled per deployment.
+
+## Tests
+
+```bash
+cd backend
+pip install -r requirements.txt -r requirements-dev.txt
+python -m pytest -q
+```
