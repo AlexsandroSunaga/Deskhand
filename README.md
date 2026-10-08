@@ -1,5 +1,11 @@
 # Deskhand
 
+## Demo
+
+[![Deskhand demo](docs/demo/demo.gif)](docs/demo/demo.mp4)
+
+The video walks through the landing page, ops dashboard and agent console, running `ORD-1001`, a refund-policy question and an escalation request, with the tool trace shown for each. [Watch the MP4](docs/demo/demo.mp4).
+
 ## Screenshots
 
 ![Deskhand landing page](docs/screenshots/01-landing.png)
