@@ -25,6 +25,13 @@ The video walks through the landing page, ops dashboard and agent console, runni
 
 **GitHub topics:** `ai-agents`, `tool-calling`, `llm`, `nextjs`, `customer-support`, `openai`
 
+## Tech stack
+
+| Area | Technologies |
+|------|--------------|
+| Frontend | `Next.js`, `React`, `TypeScript`, `Tailwind CSS`, `Radix UI`, `Framer Motion`, `Recharts`, `cmdk` |
+| Backend | `Python`, `FastAPI`, `OpenAI tool-calling`, `Pydantic Settings`, `pytest` |
+
 ## Run
 
 **API (FastAPI, port 8001)**
