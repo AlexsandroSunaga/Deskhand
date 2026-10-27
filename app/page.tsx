@@ -3,10 +3,10 @@ import { ArrowRight, Bot, Cable, Shield, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 const features = [
-  { icon: Bot, title: "Agent console", desc: "Light workspace with dark tool-trace inspector." },
-  { icon: Wrench, title: "Tool registry", desc: "KB, orders, escalation — wired for real APIs." },
-  { icon: Cable, title: "Integrations", desc: "Zendesk / Shopify / OpenAI surfaces." },
-  { icon: Shield, title: "Audit log", desc: "Ops visibility for automation rollouts." },
+  { icon: Bot, title: "Agent console", desc: "Type a ticket on the left. The tool calls behind each reply appear on the right." },
+  { icon: Wrench, title: "Tool registry", desc: "Three tools: order lookup, knowledge search and escalation to a person." },
+  { icon: Cable, title: "Integrations", desc: "Zendesk, Shopify and OpenAI are listed as not connected yet." },
+  { icon: Shield, title: "Audit log", desc: "A log of what the agent did (sample entries)." },
 ];
 
 export default function MarketingPage() {
@@ -25,13 +25,14 @@ export default function MarketingPage() {
         </Link>
       </header>
       <section className="relative max-w-6xl mx-auto px-6 pt-16 pb-20">
-        <p className="text-sm text-cyan-200/60">Agents & tools · Alexsandro Sunaga</p>
+        <p className="text-sm text-cyan-200/60">Built by Alexsandro Sunaga</p>
         <h1 className="text-4xl md:text-5xl font-extrabold mt-4 max-w-3xl leading-tight text-white">
           Customer support that shows{" "}
           <span className="text-cyan-400">every tool call</span>
         </h1>
         <p className="mt-6 text-lg text-slate-400 max-w-2xl">
-          Cyan-on-navy marketing · light ops dashboard · Zendesk-style contrast — visually distinct from the RAG product.
+          Type a ticket such as an order number or a refund question. The reply shows which tool ran, what it was
+          given and what it returned. The router is rule-based, so every step is predictable.
         </p>
         <Link href="/dashboard/agent" className="inline-block mt-8">
           <Button size="lg" className="gap-2">

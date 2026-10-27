@@ -7,7 +7,7 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
   title: "Deskhand",
-  description: "Agent console with tool traces — portfolio product",
+  description: "Support console where every reply shows the tool it used",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -4,7 +4,7 @@ import { TopBar } from "@/components/layout/TopBar";
 import { Badge } from "@/components/ui/Badge";
 
 const providers = [
-  { name: "OpenAI", purpose: "LLM tool router (optional upgrade)", configured: false },
+  { name: "OpenAI", purpose: "LLM tool router (not included in this app)", configured: false },
   { name: "Zendesk", purpose: "Ticket sync", configured: false },
   { name: "Shopify", purpose: "Order webhooks", configured: false },
 ];
@@ -21,7 +21,7 @@ export default function IntegrationsPage() {
               <p className="text-sm text-slate-500 mt-1">{p.purpose}</p>
             </div>
             <Badge variant={p.configured ? "success" : "warning"}>
-              {p.configured ? "connected" : "demo"}
+              {p.configured ? "connected" : "not connected"}
             </Badge>
           </div>
         ))}

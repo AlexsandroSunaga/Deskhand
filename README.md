@@ -4,7 +4,7 @@
 
 [![Deskhand demo](docs/demo/demo.gif)](docs/demo/demo.mp4)
 
-The video walks through the landing page, ops dashboard and agent console, running `ORD-1001`, a refund-policy question and an escalation request, with the tool trace shown for each. [Watch the MP4](docs/demo/demo.mp4).
+35 seconds, recorded from the running app: the landing page, an order lookup (`ORD-1001`), a refund-policy question and an escalation request, with the tool trace on the right for each reply, then the tool registry and the sample orders. The agent is rule-based, and the captions say so. [Watch the MP4](docs/demo/demo.mp4).
 
 ## Screenshots
 
@@ -14,16 +14,16 @@ The video walks through the landing page, ops dashboard and agent console, runni
 ![Orders view](docs/screenshots/04-orders.png)
 
 
-**AI agents · tool calling · support automation**
+**Support console · tool trace · rule-based agent**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-Next.js-3178C6?logo=typescript&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI-agents%20%2B%20tools-10b981)
-![Tool Calling](https://img.shields.io/badge/Tool%20Calling-KB%20%2B%20CRM-06b6d4)
+![Tool trace](https://img.shields.io/badge/Agent-tool%20trace-10b981)
+![Rule-based](https://img.shields.io/badge/Router-rule--based-06b6d4)
 ![Next.js](https://img.shields.io/badge/Next.js-15-000?logo=next.js&logoColor=white)
 
-**Next.js 15** product console + **FastAPI** agent API with tool router (deterministic rules; ready to swap in **OpenAI / Anthropic** function-calling).
+**Next.js 15** console + **FastAPI** agent API. The router matches order numbers and keywords to three tools (order lookup, knowledge search, escalation) and returns the trace of each call. It does not use a language model; an LLM function-calling router is not included.
 
-**GitHub topics:** `ai-agents`, `tool-calling`, `llm`, `nextjs`, `customer-support`, `openai`
+**GitHub topics:** `tool-calling`, `nextjs`, `fastapi`, `customer-support`
 
 ## Tech stack
 

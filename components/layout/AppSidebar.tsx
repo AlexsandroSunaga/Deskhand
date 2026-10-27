@@ -88,7 +88,7 @@ export function AppSidebar({ mobile }: { mobile?: boolean }) {
           >
             {collapsed ? <ChevronsRight className="h-4 w-4" /> : <ChevronsLeft className="h-4 w-4" />}
           </button>
-          {!collapsed && <p className="text-[10px] text-slate-600">Portfolio · Alexsandro</p>}
+          {!collapsed && <p className="text-[10px] text-slate-600">Sample data</p>}
         </div>
       )}
     </aside>

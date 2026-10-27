@@ -61,7 +61,7 @@ export default function AgentConsolePage() {
     <>
       <TopBar
         title="Agent console"
-        subtitle="Conversation center · tool trace inspector (Automatos-style)"
+        subtitle="Type a ticket · the tool trace shows how each reply was produced"
         breadcrumbs={[{ label: "Workspace", href: "/dashboard" }, { label: "Agent" }]}
       />
       <div className="flex flex-1 min-h-0 h-[calc(100vh-4.5rem)]">

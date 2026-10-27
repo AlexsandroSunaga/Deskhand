@@ -7,7 +7,7 @@ import { deflectionTrend } from "@/lib/demo-data";
 export default function AnalyticsPage() {
   return (
     <>
-      <TopBar title="Analytics" subtitle="Deflection vs escalation (illustrative)" />
+      <TopBar title="Analytics" subtitle="Deflection vs escalation (sample data)" />
       <div className="p-6 space-y-6">
         <div className="grid sm:grid-cols-3 gap-4">
           <div className="card rounded-xl p-4">
