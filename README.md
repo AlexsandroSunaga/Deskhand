@@ -65,7 +65,7 @@ Overview · Agent console (chat + tool trace) · Tool registry · Knowledge · O
 
 ## Summary
 
-Support agent with tool traces, KB + order tools, and ops dashboard (Next.js + FastAPI). LLM-backed router can be enabled per deployment.
+Support agent with tool traces, KB + order tools, and ops dashboard (Next.js + FastAPI). The router is rule-based (keyword matching over the tool registry). An LLM function-calling router is not included.
 
 ## Tests
 
@@ -81,4 +81,4 @@ python -m pytest -q
 
 ## License
 
-MIT License — Copyright (c) 2026 Alexsandro Sunaga. See the license section in this repository for full terms.
+MIT License — Copyright (c) 2026 Alexsandro Sunaga. See [LICENSE](LICENSE).
